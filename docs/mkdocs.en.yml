@@ -1,0 +1,13 @@
+INHERIT: ./mkdocs.base.yml
+docs_dir: en
+site_dir: ./site/en
+theme:
+  language: en
+nav:
+  - Architecture: architecture.md
+  - Installation: installation.md
+  - Deployment: deployment.md
+  - EMD-Client: emd_client.md
+  - Langchain-Interface: langchain_interface.md
+  - OpenAI-Compatiable: openai_compatiable.md
+  - Supported Model: supported_models.md
